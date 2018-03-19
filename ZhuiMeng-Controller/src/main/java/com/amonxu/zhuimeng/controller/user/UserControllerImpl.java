@@ -1,7 +1,5 @@
 package com.amonxu.zhuimeng.controller.user;
 
-import com.alibaba.dubbo.config.annotation.Reference;
-import com.amonxu.zhuimeng.facade.user.UserService;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
 
@@ -11,8 +9,8 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class UserControllerImpl implements UserController {
 
-    @Reference(version = "1.0.0")
-    private UserService userService;
+//    @Reference(version = "1.0.0")
+//    private UserService userService;
 
     @GetMapping("/login")
     @Override
