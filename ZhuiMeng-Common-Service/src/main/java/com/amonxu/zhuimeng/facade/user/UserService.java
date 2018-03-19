@@ -1,4 +1,4 @@
-package com.amonxu.zhuimeng.service.user;
+package com.amonxu.zhuimeng.facade.user;
 
 /**
  * Created by xumeng on 07/03/2018.

@@ -1,7 +1,7 @@
 package com.amonxu.zhuimeng.user.service;
 
 import com.alibaba.dubbo.config.annotation.Service;
-import com.amonxu.zhuimeng.service.user.UserService;
+import com.amonxu.zhuimeng.facade.user.UserService;
 
 /**
  * Created by xumeng on 07/03/2018.
