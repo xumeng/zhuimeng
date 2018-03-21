@@ -1,4 +1,4 @@
-package com.amonxu.zhuimeng.user.controller.user;
+package com.amonxu.zhuimeng.controller.user;
 
 /**
  * Created by xumeng on 07/03/2018.

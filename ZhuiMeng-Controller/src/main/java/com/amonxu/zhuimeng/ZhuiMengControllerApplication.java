@@ -1,4 +1,4 @@
-package com.amonxu.zhuimeng.user;
+package com.amonxu.zhuimeng;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

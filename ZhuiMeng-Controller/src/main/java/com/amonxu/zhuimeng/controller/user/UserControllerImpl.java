@@ -1,4 +1,4 @@
-package com.amonxu.zhuimeng.user.controller.user;
+package com.amonxu.zhuimeng.controller.user;
 
 import com.alibaba.dubbo.config.annotation.Reference;
 import com.amonxu.zhuimeng.facade.user.UserService;
@@ -17,6 +17,7 @@ public class UserControllerImpl implements UserController {
     @GetMapping("/login")
     @Override
     public String login(String username, String password) {
-        return "login success";
+        String token = userService.generateToken(null ,null);
+        return token;
     }
 }
