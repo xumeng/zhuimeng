@@ -1,4 +1,4 @@
-package com.amonxu.zhuimeng.controller.user;
+package com.amonxu.zhuimeng.user.controller.user;
 
 import com.alibaba.dubbo.config.annotation.Reference;
 import com.amonxu.zhuimeng.facade.user.UserService;

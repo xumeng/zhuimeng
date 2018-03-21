@@ -8,7 +8,7 @@
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>pom</packaging>
 
-	<name>ZhuiMeng</name>
+	<name>zhuimeng</name>
 	<description>Demo project for Spring Boot</description>
 
 	<parent>
@@ -62,7 +62,7 @@
 
 		<dependency>
 			<groupId>com.amonxu.zhuimeng</groupId>
-			<artifactId>zhuimengcommonservice</artifactId>
+			<artifactId>zhuimeng-common-service</artifactId>
 			<version>0.0.1-SNAPSHOT</version>
 		</dependency>
 
@@ -81,8 +81,10 @@
 	</dependencies>
 
 	<modules>
-		<module>ZhuiMeng-User</module>
 		<module>ZhuiMeng-Common-Service</module>
+		<!--<module>ZhuiMeng-User</module>-->
+		<module>zhuimeng-order</module>
+		<module>zhuimeng-pay</module>
 	</modules>
 
 	<profiles>

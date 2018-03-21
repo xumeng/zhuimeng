@@ -11,6 +11,7 @@ import com.amonxu.zhuimeng.facade.user.UserService;
 public class UserServiceImpl implements UserService {
     @Override
     public String generateToken(String username, String password) {
-        return "HELLO MICRO SERVICE";
+        return "hello i am user";
     }
+
 }

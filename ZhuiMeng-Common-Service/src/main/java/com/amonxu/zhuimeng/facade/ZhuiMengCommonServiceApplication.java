@@ -1,4 +1,4 @@
-package com.amonxu.zhuimeng;
+package com.amonxu.zhuimeng.facade;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

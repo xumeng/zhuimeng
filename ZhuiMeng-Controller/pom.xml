@@ -4,11 +4,11 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<groupId>com.amonxu.zhuimeng</groupId>
-	<artifactId>zhuimengcontroller</artifactId>
+	<artifactId>zhuimeng-controller</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>war</packaging>
 
-	<name>ZhuiMeng-Controller</name>
+	<name>zhuimeng-controller</name>
 	<description>Demo project for Spring Boot</description>
 
 	<parent>
